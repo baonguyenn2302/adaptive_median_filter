@@ -1,0 +1,41 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test, coverage, and type-checker caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Generated demo and benchmark results
+results/*
+!results/.gitkeep
+
+# Jupyter/IPython artifacts
+.ipynb_checkpoints/
+
+# macOS and editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
